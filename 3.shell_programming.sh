@@ -2,7 +2,7 @@
 touch myscript.sh
 nano myscript.sh
 echo "hello world"
-chmod u+x myscript.sh
+chmod u+x myscript.sh # 실행권한을 부여해야 실행가능함
 
 # 스크립트 실행
 ./스크립트명.sh
@@ -18,7 +18,7 @@ chmod u+x myscript.sh
 # 터미널창에 "script practice end" 문구 출력
 
 # if문
-if [ 1 -gt 2 ]; then
+if [ 1 -gt 2 ]; then # if(1 > 2)
     echo "hello world1"
 else
     echo "hello world2"
